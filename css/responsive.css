@@ -1,0 +1,1790 @@
+/* ============= @media screen - max-width : 1200px =============== */
+
+@media screen and (max-width: 1199px) {
+
+        /* ========== common-styling ========== */
+
+body {
+    overflow-x: hidden;
+}
+
+/* ============ nav-top ============ */
+
+.nav-top .container .contact-details {
+    width: 55%;
+    padding: 0 20px;
+}
+
+.nav-top .container .logo {
+    left: 0;
+    top: 0;
+}
+
+.nav-top .container .logo img {
+    width: 70%;
+}
+
+/* ============ navbar ============ */
+
+.navbar .container .nav-menu ul {
+    padding-right: 25px;
+}
+
+.navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+    width: 14vw;
+    top: 5vh;
+}
+
+.navbar .container .nav-menu .contact-btn {
+    padding: 0 6px 0 15px;
+
+    i {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}
+
+/* ============= banner ============= */
+
+.banner .container .row {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.banner .container .row .heading {
+    justify-content: end;
+}
+
+.banner .container .row .heading h1 {
+    font-size: 70px;
+    padding-bottom: 15px;
+}
+
+.banner .container .row .heading .cursive {
+    font-size: 35px;
+}
+
+.banner .container .row .banner-btn .book-btn {
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.banner .container .row .banner-btn .book-btn i {
+    padding-left: 10px;
+}
+
+.banner .container .row .banner-btn .dial-btn {
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.banner .container .row .banner-btn .dial-btn i {
+    padding-left: 10px;
+}
+
+.banner .container .scroll-down {
+    right: -90%;
+    top: 55%;
+}
+
+.banner .container .scroll-down .arrow {
+    transform: rotate(0deg);
+    padding-right: 10px;
+}
+    /* ============== amenities ============= */
+
+    .amenities {
+        height: 150vh;
+        top: 85vh;
+    }
+
+    .amenities .container .row {
+        height: 80%;
+        padding: 5% 0;
+    }
+
+    .amenities .container .row .heading h2 {
+        font-size: 40px;
+        padding-bottom: 5px;
+    }
+
+    .amenities .container .row .heading p {
+        font-size: 15px;
+    }
+
+    .amenities .container .row .heading .cursive {
+        font-size: 40px;
+    }
+
+    .amenities .container .row .facilities-card-layout {
+        height: 70%;
+    }
+
+    .amenities .container .row .heading button {
+        padding-left: 20px;
+    }
+
+    .amenities .container .row .facilities-card-layout .swiper .swiper-wrapper {
+        height: 65%;
+    }
+
+    .amenities .container .row .facilities-card-layout .swiper .swiper-wrapper .swiper-slide .facility-card {
+        padding: 10px;
+        justify-content: center;
+    }
+
+    .amenities .container .row .facilities-card-layout .swiper .swiper-wrapper .swiper-slide .facility-card .card-heading h3 {
+        font-size: 24px;
+    }
+
+    .amenities .container .row .background-image {
+        left: -25%;
+        top: 35%;
+    }
+
+    /* ============ things-to-do ============= */
+
+    .things-to-do {
+        height: 300vh;
+        top: 120vh;
+    }
+
+    .things-to-do .container .row .heading {
+        height: 30%;
+    }
+
+    .things-to-do .container .row .things-part-2 {
+        height: 60%;
+    }
+
+    .things-to-do .container .row .things-card-layout {
+        height: 100%;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake {
+        top: 12%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road {
+        top: 12%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 {
+        top: 56%;
+    }
+
+    .things-to-do .container .row .heading .text-content {
+        padding-right: 15px;
+    }
+
+    .things-to-do .container .row .heading .text-content h2 {
+        font-size: 40px;
+    }
+
+    .things-to-do .container .row .heading .text-content .more-things {
+        padding-left: 20px;
+    }
+
+
+    /* ============== testimonial ================= */
+
+    .testimonial {
+        height: 160vh;
+        top: 500vh;
+    }
+
+    .testimonial .container .row .heading {
+        width: 80%;
+        padding-bottom: 40px;
+    }
+
+    .testimonial .container .row .heading h2 {
+        font-size: 40px;
+    }
+
+    .testimonial .container .row .test-card-layout {
+        height: 60%;
+        align-items: start;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper {
+        align-items: start;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper {
+        height: 80%;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper .swiper-slide .test-card .card-heading .user-desc .user-info h3 {
+        font-size: 22px;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-pagination {
+        height: 20%;
+        position: absolute;
+        top: 90%;
+    }
+
+    .testimonial .container .row .test-card-layout .house {
+        top: 69%;
+    }
+
+     /* ============= booking =============== */
+
+     .booking {
+        height: 100vh;
+        top: 245vh;
+    }
+
+    .banner .container .row {
+        width: 100%;
+    }
+
+    .booking .container .row .heading {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .booking .container .row .heading h2 {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .booking .container .row .heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .booking .container .row .booking-btn .book-btn {
+        padding-left: 20px !important;
+    }
+
+    .booking .container .row .booking-btn .dial-btn {
+        padding-left: 15px !important;
+    }
+
+    .booking .container .row .booking-btn .dial-btn i {
+        padding-left: 15px;
+    }
+
+
+    .booking .container .row .image-content .village {
+        left: 10%;
+        top: 20%;
+    }
+
+    .booking .container .row .image-content .village img {
+        width: 80%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        left: 44%;
+        top: 25%;
+        width: 53%;
+        height: 57%;
+    }
+
+    .booking .container .row .image-content .vehicle img {
+        width: 98%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 105vh;
+        top: 725vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container {
+        justify-content: end;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 10%;
+    }
+
+    .footer-secondary {
+        height: 10%;
+        padding: 3% 0;
+    }
+
+}
+
+/* ============= @media screen - max-width : 1024px =============== */
+
+@media screen and (max-width: 1024px) {
+
+    /* ============ amenities ============== */
+
+    .amenities {
+        height: 150vh;
+    }
+
+    .nav-top .container .logo img{
+        width: 75%;
+    }
+
+    /* ============ things-to-do ============== */
+
+    .things-to-do {
+        height: 300vh;
+        top: 120vh;
+    }
+
+    .things-to-do .container .row .heading .image-content {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake {
+        width: 100%;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake img {
+        width: 100%;
+        height: unset;
+    }
+
+    .things-to-do .container .row .heading .image-content #road {
+        left: 80%;
+        width: 50%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 {
+        left: 80%;
+        top: 58%;
+        width: 50%;
+    }
+
+    /* ============== testimonial ================= */
+
+    .testimonial {
+        top: 440vh;
+    }
+
+    .testimonial .container .row .test-card-layout {
+        height: 60%;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper {
+        height: 65%;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-pagination {
+        height: 25%;
+    }
+
+    /* ============ booking ============ */
+
+    .booking {
+        height: 100vh;
+    }
+    
+    .booking .container .row .heading p{
+        width: 85%;
+    }
+
+    .booking .container .row .image-content {
+        width: 48%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        left: 42%;
+    }
+
+    .booking .container .row .image-content .vehicle img {
+        width: 96%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 90vh;
+        top: 650vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 7%;
+    }
+
+}
+
+/* ============= @media screen - max-width : 992px =============== */
+
+@media screen and (max-width: 991px) {
+/* ============ nav-top ============ */
+
+.nav-top .container {
+    justify-content: end;
+ }
+
+ .nav-top .container .logo img{
+    width: 65%;
+}
+
+.nav-top .container .contact-details {
+    width: 100%;
+    justify-content: end;
+}
+
+.nav-top .container .contact-details .address {
+    padding-right: 20px;
+}
+
+.nav-top .container .contact-details .address .detail-text {
+    font-size: 14px;
+}
+
+.nav-top .container .contact-details .phone .detail-text {
+    font-size: 14px;
+}
+
+ /* ============ navbar ============ */
+
+ .navbar .container .nav-menu {
+    width: 90%;
+ }
+
+ .navbar .container .nav-menu ul {
+    width: 75%;
+    justify-content: end;
+ }
+
+ .navbar .container .nav-menu ul li {
+    padding: 0 15px;
+ }
+
+.navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+    width: 22vw;
+    top: 5vh;
+}
+
+/* ============= banner ============= */
+
+.banner .container .row .heading .cursive {
+    font-size: 30px;
+}
+
+.banner .container .row .heading h1 {
+    font-size: 50px;
+    width: 70%;
+}
+
+.banner .container .row .heading p {
+    font-size: 15px;
+}
+
+.banner .container .row .banner-btn .book-btn {
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.banner .container .row .banner-btn .book-btn i {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.banner .container .row .banner-btn .dial-btn {
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.banner .container .row .banner-btn .dial-btn i {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+    /* ============== amenities ============= */
+
+    .amenities .container .row .heading {
+        width: 90%;
+        height: 45%;
+    }
+
+    .amenities .container .row .heading h2 {
+        font-size: 30px;
+    }
+
+    .amenities .container .row .heading .cursive {
+        font-size: 30px;
+    }
+
+    .amenities .container .row .heading button {
+        padding-left: 10px;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        font-size: 15px;
+
+        i {
+            font-size: 30px;
+        }
+    }
+
+    .amenities .container .row .facilities-card-layout {
+        height: 55%;
+    }
+
+    /* ============ things-to-do ============= */
+
+    .things-to-do {
+        height: 450vh;
+    }
+
+    .things-to-do .container .row {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .things-to-do .container .row .heading {
+        width: 100%;
+        height: 30%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .heading .image-content {
+        width: 100%;
+        height: 50%;
+        justify-content: center;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake img {
+       width: unset;
+       height: 100%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road {
+        top: 0%;
+        left: 55%;
+        height: 50%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road img {
+        width: 55%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 {
+        top: 50%;
+        left: 55%;
+        height: 50%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 img {
+        width: 55%;
+    }
+
+    .curve {
+        padding: 20px;
+    }
+
+    .things-to-do .container .row .heading .text-content {
+        width: 80%;
+        height: 40%;
+        padding-top: 0;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .heading .text-content h2 {
+        font-size: 40px;
+    }
+
+    .things-to-do .container .row .heading .text-content p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .things-to-do .container .row .heading .text-content .more-things {
+        padding-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 15px;
+
+        i {
+            font-size: 30px;
+            padding-left: 10px;
+        }
+    }
+
+    .things-to-do .container .row .things-card-layout {
+        height: 90%;
+        justify-content: center;
+        align-items: start;
+
+    }
+
+    .things-to-do .container .row .things-part-2 .things-card-layout .things-card {
+        height: 33%;
+        width: 45%;
+        margin: 10px;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-image {
+        height: 55% !important;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-image #distance {
+        left: 65% !important;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-content {
+        padding-top: 0;
+        height: 45% !important;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-content h3 {
+        font-size: 22px;
+    }
+
+    /* ============ testimonial ============ */
+
+    .testimonial {
+        top: 655vh;
+        height: 150vh;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-pagination {
+        height: 20%;
+        position: absolute;
+        top: 80%;
+    }
+
+        /* ============ booking ============ */
+
+        .booking {
+            height: 150vh;
+            top: 235vh;
+        }
+    
+        .booking .container .row {
+            height: 90%;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .booking .container .row .heading {
+            width: 90%;
+            height: 40%;
+            align-items: center;
+        }
+    
+        .booking .container .row .heading h2 {
+            font-size: 40px;
+            text-align: center;
+        }
+    
+        .booking .container .row .heading p {
+            text-align: center;
+        }
+    
+        .booking .container .row .image-content {
+            height: 50%;
+            width: 100%;
+        }
+    
+        .booking .container .row .image-content .village {
+    width: 100% !important;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: unset;
+        }
+    
+        .booking .container .row .image-content .village img {
+            width:55%;
+        }
+    /* =========== footer =========== */
+
+    footer {
+        height: 90vh;
+        top: 915vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 4%;
+    }
+
+    .footer-primary .container .contact-details .address p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-primary .container .contact-details .phone p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .phone i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* ============= @media screen - max-width : 768px =============== */
+
+@media screen and (max-width: 767px) {
+
+    header {
+        position: relative;
+    }
+     /* ============ nav-top ============ */
+
+     .nav-top {
+        height: 70px;
+        top: 0;
+    }
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 20%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+
+    }
+
+    .nav-top .container .contact-details {
+        width: 100%;
+        justify-content: end;
+        padding: 0;
+    }
+
+    .nav-top .container .contact-details .phone .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        padding: 5px 7px;
+        font-size: 18px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .nav-top .container .menu-icon {
+        display: inline-block;
+        color: #fff;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 60px;
+        top: 100px
+    }
+
+    .navbar .container {
+        position: relative;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu {
+        width: 45%;
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: #fff;
+        backdrop-filter: blur(5px);
+        padding: 15px;
+        display: none;
+        overflow-x: hidden;
+        padding: 25px 10px 0 10px;
+        
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding: 10px;
+        i {
+            color: #000;
+        }
+        border-top: 1px solid #000;
+        width: 90%;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .navbar .container .nav-menu ul li.active {
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 80%;
+        display: block;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        position: unset;
+        width: 90%;
+        align-items: start;
+        background-color: #E18A11;
+        backdrop-filter: blur(5px);
+        align-items: start;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu li {
+        justify-content: start;
+        text-transform: capitalize;
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu .view a {
+        font-weight: 600 !important;
+        font-size: 15px !important;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-arrow {
+        color: #000 !important;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 90%;
+        background-color: transparent;
+        margin-right: 20px;
+        justify-content: start;
+        color: #000;
+        i {
+            font-size: 18px;
+        }
+        border-top: 1px solid #000;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    /* ============== amenities ============= */
+
+    .amenities {
+        height: 150vh;
+    }
+
+    .amenities .container .row .facilities-card-layout .swiper .swiper-wrapper .swiper-slide .facility-card .card-heading h3 {
+        font-size: 20px;
+    }
+
+    /* ============ things-to-do ============= */
+
+    .things-to-do {
+        height: 320vh;
+        top: 120vh;
+    }
+
+    .things-to-do .container .row {
+        height: 90%;
+    }
+
+    .things-to-do .container .row .heading {
+        width: 100%;
+        height: 30%;
+    }
+
+    .things-to-do .container .row .heading .text-content {
+        height: 100%;
+    }
+
+    .things-to-do .container .row .things-part-2 {
+        height: 85%;
+    }
+
+    .things-to-do .container .row .things-card-layout {
+        height: 100%;
+    }
+
+    .curve {
+        padding: 10px;
+    }
+
+    .things-to-do .container .row .heading .text-content h2 {
+        font-size: 28px;
+    }
+
+    .things-to-do .container .row .heading .image-content {
+        display: none;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake {
+        left: 3%;
+        display: none;
+    }
+
+    .things-to-do .container .row .heading .image-content #lake img {
+        width: 72%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road {
+        top: 0%;
+        left: 58%;
+        display: none;
+    }
+
+    .things-to-do .container .row .heading .image-content #road img {
+        width: 75%;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 {
+        top: 39%;
+        left: 58%;
+        display: none;
+    }
+
+    .things-to-do .container .row .heading .image-content #road-2 img {
+        width: 75%;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card {
+        height: 33%;
+        padding: 15px;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-image {
+        height: 45% !important;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-image #distance {
+        padding: 5px 10px;
+        left: 55% !important;
+        font-size: 14px;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-content {
+        height: 55% !important;
+    }
+
+    .things-to-do .container .row .things-card-layout .things-card .card-content h3 {
+        font-size: 18px;
+    }
+
+    /* ============ testimonial ============ */
+
+    .testimonial {
+        top: 520vh;
+        height: 150vh;
+    }
+
+    .testimonial .container .row .heading {
+        height: 45%;
+    }
+
+    .testimonial .container .row .heading h2 {
+        font-size: 28px;
+    }
+
+    .testimonial .container .row .test-card-layout {
+        height: 55%;
+    }
+
+    /* ============= booking ============= */
+
+    .booking {
+        top: 230vh;
+    }
+
+    /* ============= footer ============= */
+
+    footer {
+        height: 100vh !important;
+        top: 780vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 65%;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-secondary {
+        height: 15%;
+    }
+
+    .footer-secondary .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-secondary .container p {
+        padding-top: 15px;
+    }
+
+    .footer-secondary .container .designer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copy {
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer .designer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+}
+
+/* ============= @media-screen - max-width : 576px =============== */
+
+@media screen and (max-width: 575px) {
+ 
+    /* ========== nav-top =========== */
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 25%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        width: 40vw;
+        left: -280%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        font-size: 18px;
+       width: 90%;
+    }
+
+    .navbar .container .nav-menu {
+       left: 55%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 100%;
+    }
+    
+/* ========== banner =========== */
+
+.banner .container .row .heading .cursive {
+    font-size: 26px;
+}
+
+.banner .container .row .heading h1 {
+    font-size: 40px;
+    width: 70%;
+}
+
+.banner .container .row .heading p {
+    font-size: 14px;
+}
+
+.banner .container .row .banner-btn .book-btn {
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.banner .container .row .banner-btn .book-btn i {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.banner .container .row .banner-btn .dial-btn {
+    padding-right: 5px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.banner .container .row .banner-btn .dial-btn i {
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.banner .container .scroll-down {
+    display: none;
+}
+
+    /* ============= amenities ============== */
+
+    .amenities .container .row .facilities-card-layout .swiper .swiper-wrapper .swiper-slide .facility-card .card-heading h3 {
+        font-size: 20px;
+    }
+
+    /* ============ things-to-do ============= */
+
+    .things-to-do {
+        height: 180vh;
+        top: 120vh;
+    }
+
+    .things-to-do .container .row {
+        justify-content: space-between;
+        height: 90%;
+    }
+
+    .things-to-do .container .row .heading {
+        width: 90%;
+        height: 40%;
+    }
+
+    .things-to-do .container .row .heading .text-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .things-to-do .container .row .things-card-layout {
+        display: none;
+    }
+
+    .things-to-do .container .row .things-part-2 {
+        height: 60%;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper {
+        display: block;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper {
+        width: 100%;
+        height: 80%;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide {
+        width: 48%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide  .things-card {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 22px;
+        background-color: #2F8889;
+        padding: 25px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: 20px;
+        transition: all 0.5s ease;
+        box-shadow: 0 0 8px #247d7f7c;
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide  .things-card:hover {
+        background-color: #fff;
+        .card-image figure img {
+            transform: scale(1.1);
+        }
+        .card-content h3{
+            color: #000000;
+        }
+        .card-content p {
+            color: #000000;
+        }
+        .card-content .visit-btn {
+            background-color: #E18A11;
+        }
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-image {
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 20px;
+    }
+    
+.things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-image #distance {
+        position: absolute;
+        left: 55%;
+        top: 12%;
+        font-size: 14px;
+        background-color: #fff;
+        padding: 7px 15px;
+        border-radius: 20px;
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-image figure {
+        width: 100%;
+        height: 100%;
+    } 
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-image figure img {
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-content {
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-content h3 {
+        font-size: 22px;
+        color: #fff;
+        font-family: "Fraunces", serif;
+        font-weight: 600;
+        padding-bottom: 14px;
+        transition: all 0.5s ease;
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-content p {
+        font-size: 14px;
+        color: #fff;
+        padding-bottom: 18px;
+        transition: all 0.5s ease;
+        line-height: 1.5;
+    }
+    
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-content .visit-btn {
+        padding: 4px 5px 4px 20px;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        i {
+            font-size: 25px;
+            color: #fff;
+            padding-left: 10px;
+        }
+        transition: all 0.5s ease;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-pagination {
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        z-index: 100;
+        top: 92%;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-pagination .swiper-pagination-bullet {
+        background-color: #cec9c2;
+        width: 15px;
+        height: 15px;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-pagination .swiper-pagination-bullet-active {
+        background-color: #F4FEF9;
+        width: 15px;
+        height: 15px;
+    }
+
+    /* ============ testimonial ============ */
+
+    .testimonial {
+        top: 385vh;
+        height: 160vh;
+    }
+
+    .testimonial .container .row .heading {
+        height: 40%;
+    }
+
+    .testimonial .container .row .heading h2 {
+        font-size: 28px;
+    }
+
+    .testimonial .container .row .test-card-layout {
+        height: 55%;
+    }
+
+    /* ============= booking ============== */
+
+    .booking {
+        top: 245vh;
+        height: 120vh;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 28px;
+    }
+
+    .booking .container .row .booking-btn {
+        flex-direction: column;
+    }
+
+    .booking .container .row .booking-btn .book-btn {
+        padding: 4px 4px 4px 0;
+        padding-left: 10px !important;
+        font-size: 14px;
+
+        i {
+            padding-left: 5px;
+            font-size: 26px;
+        }
+
+        margin-bottom: 10px;
+    }
+
+    .booking .container .row .booking-btn .dial-btn {
+        padding: 4px 4px 4px 0;
+        padding-left: 10px !important;
+        font-size: 14px;
+
+        i {
+            padding-left: 5px;
+            font-size: 26px;
+        }
+    }
+
+    .booking .container .row .image-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking .container .row .image-content .village {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking .container .row .image-content .village img {
+        width: 70%;
+        height: unset;
+    }
+
+    /* ============= footer ============= */
+
+    footer {
+        height: 90vh;
+        top: 625vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 75%;
+    }
+
+}
+
+/* ============= @media-screen - max-width : 480px =============== */
+
+@media screen and (max-width: 480px) {
+  
+    /* ========= nav-top ========== */
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 35%;
+    }
+
+    .nav-top .container .logo img {
+        width: 100%;
+    }
+
+    .nav-top .container .contact-details .address {
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        font-size: 16px;
+    }
+
+    .nav-top .container .contact-details .phone{
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 16px;
+        margin: 0 8px;
+    }
+    
+    .nav-top .container .menu-icon {
+        padding-left: 5px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 50px;
+        top: 60px
+    }
+
+    .navbar .container .nav-menu {
+        left: 50%;
+        width: 50%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 85%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding-bottom: 10px;
+        i {
+            color: #000;
+        }
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 14px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        left: -180%;
+        top: -150%;
+        width: 40vw;
+        padding: 10px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li a {
+        font-size: 14px;
+        i {
+            color: #fff;
+        }
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li.view a {
+        font-size: 16px;
+    }
+
+    /* ========== banner =========== */
+
+    .banner .container .row .heading {
+        width: 100%;
+    }
+
+    .banner .container .row .heading .cursive {
+        font-size: 22px;
+    }
+
+    .banner .container .row .heading h1 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .banner .container .row .heading p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    /* ============== amenities ============= */
+
+    .amenities {
+        height: 150vh;
+    }
+
+    .amenities .container .row {
+        height: 80%;
+    }
+
+    .amenities .container .row .heading {
+        height: 52%;
+    }
+
+    .amenities .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .amenities .container .row .heading .cursive {
+        font-size: 24px;
+    }
+
+    .amenities .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .amenities .container .row .heading button {
+        padding-right: 4px;
+        padding-left: 10px;
+        font-size: 13px;
+
+        i {
+            padding-left: 5px;
+            font-size: 24px;
+        }
+    }
+
+    .amenities .container .row .facilities-card-layout {
+        height: 48%;
+    }
+
+    /* ============ things-to-do ============= */
+
+    .things-to-do {
+        overflow-x: hidden;
+        height: 180vh;
+    }
+
+    .things-to-do .container .row {
+        height: 95%;
+    }
+
+    .things-to-do .container .row .things-part-2 .swiper .swiper-wrapper .swiper-slide .things-card .card-content {
+        height: 55%;
+    }
+
+    .things-to-do .container .row .heading .text-content h2 {
+        font-size: 22px;
+    }
+
+    .things-to-do .container .row .heading .text-content p {
+        font-size: 14px;
+    }
+
+    .things-to-do .container .row .heading .text-content .more-things {
+        font-size: 14px;
+        padding: 2px 4px 2px 10px;
+    }
+
+    /* ============ testimonial ============ */
+
+    .testimonial {
+        top: 365vh;
+        height: 170vh;
+    }
+
+    .testimonial .container .row .heading {
+        height: 40%;
+        width: 100%;
+    }
+
+    .testimonial .container .row .heading h2 {
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .testimonial .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .testimonial .container .row .test-card-layout {
+        height: 45%;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper .swiper-slide .test-card .card-heading .user-desc .initial {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper .swiper-slide .test-card .card-heading .user-desc .user-info h3 {
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper .swiper-slide .test-card .card-heading .user-desc .user-info p {
+        font-size: 14px;
+    }
+
+    .testimonial .container .row .test-card-layout .swiper .swiper-wrapper .swiper-slide .test-card .card-content p {
+        font-size: 14px;
+    }
+
+    /* ============= booking ============== */
+
+    .booking {
+        height: 80vh;
+        top: 230vh;
+    }
+
+    .booking .container .row .heading {
+        height: 100%;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .booking .container .row .image-content {
+        display: none;
+    }
+
+    /* ============= footer ============= */
+
+    footer {
+        height: 105vh;
+        top: 565vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 95%;
+    }
+
+    .footer-primary .container .brand-menu .list-item a {
+        font-size: 16px;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .contact-details .address p {
+        display: none;
+    }
+
+    .footer-primary .container .contact-details .phone i {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .contact-details .phone p {
+        display: none;
+    }
+
+    #copy {
+        padding: 0;
+        text-align: center;
+        line-height: 1.5;
+        padding: 10px 0;
+    }
+
+    .footer-secondary .container .designer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer .designer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+}

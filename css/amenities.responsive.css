@@ -1,0 +1,1381 @@
+/* ============= @media screen - max-width : 1200px =============== */
+
+@media screen and (max-width: 1199px) {
+    /* ========== common-styling ========== */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ============ nav-top ============ */
+
+    .nav-top .container .contact-details {
+        width: 55%;
+        padding: 0 20px;
+    }
+
+    .nav-top .container .logo {
+        left: 0;
+        top: 0;
+    }
+
+    .nav-top .container .logo img {
+        width: 70%;
+    }
+
+    /* ============ navbar ============ */
+
+    .navbar .container .nav-menu ul {
+        padding-right: 25px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        width: 14vw;
+        top: 5vh;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        padding: 0 6px 0 15px;
+
+        i {
+            font-size: 30px;
+            padding-left: 10px;
+        }
+    }
+
+    /* ============= banner ============= */
+
+    .banner .container .row {
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .banner .container .row .heading {
+        justify-content: end;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 70px;
+        padding-bottom: 15px;
+    }
+
+    .banner .container .row .heading .cursive {
+        font-size: 35px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 5px;
+        padding-left: 20px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 10px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 5px;
+        padding-left: 20px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 10px;
+    }
+
+    .banner .container .scroll-down {
+        right: -90%;
+        top: 55%;
+    }
+
+    .banner .container .scroll-down .arrow {
+        transform: rotate(0deg);
+        padding-right: 10px;
+    }
+
+    /* ============== main-amenities ============= */
+
+.main-amenities {
+    height: 240vh;
+    top: 85vh;
+}
+
+.main-amenities .container .row .amenities-card-layout {
+    height: 60%;
+}
+
+/* ============ other-amenities ============ */
+
+.other-amenities {
+    top: 180vh;
+    height: 300vh;
+    padding: 10% 0;
+}
+
+.other-amenities .container .row {
+    justify-content: space-between;
+}
+
+.other-amenities .container .row .heading {
+    height: 10%;
+}
+
+.other-amenities .container .row .amenity-part-2 {
+    height: 85%;
+}
+
+.other-amenities .container .row .amenity-grid {
+    height: 80%;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card {
+    padding: 5%;
+}
+
+     /* ============= booking =============== */
+
+     .booking {
+        height: 100vh;
+        top: 155vh;
+    }
+
+    .banner .container .row {
+        width: 100%;
+    }
+
+    .booking .container .row .heading {
+        width: 60%;
+        padding: 20px;
+    }
+
+    .booking .container .row .heading h2 {
+        width: 90%;
+        font-size: 50px;
+    }
+
+    .booking .container .row .heading p {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .booking .container .row .booking-btn .book-btn {
+        padding-left: 20px !important;
+    }
+
+    .booking .container .row .booking-btn .dial-btn {
+        padding-left: 15px !important;
+    }
+
+    .booking .container .row .booking-btn .dial-btn i {
+        padding-left: 15px;
+    }
+
+
+    .booking .container .row .image-content .village {
+        left: 10%;
+        top: 20%;
+    }
+
+    .booking .container .row .image-content .village img {
+        width: 80%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        left: 44%;
+        top: 25%;
+        width: 53%;
+        height: 57%;
+    }
+
+    .booking .container .row .image-content .vehicle img {
+        width: 98%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 100vh;
+        top: 635vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container {
+        justify-content: end;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 10%;
+    }
+
+    .footer-secondary {
+        height: 10%;
+        padding: 3% 0;
+    }
+
+}
+
+/* ============= @media screen - max-width : 1024px =============== */
+
+@media screen and (max-width: 1024px) {
+
+    .nav-top .container .logo img{
+        width: 75%;
+    }
+
+        /* ============== main-amenities ============= */
+
+.main-amenities {
+    height: 220vh;
+    top: 80vh;
+}
+
+.main-amenities .container .row .heading {
+    height: 35%;
+    width: 90%;
+}
+
+.main-amenities .container .row .main-amenities-part-2 {
+    height: 40%;
+}
+
+    .main-amenities .container .row .amenities-card-layout {
+        height: 70%;
+    }
+
+    /* ============ other-amenities ============ */
+
+    .other-amenities .container .row .amenity-grid .amenity-card p {
+        font-size: 24px;
+        line-height: 1.5;
+    }
+
+    .other-amenities .container .row .amenity-grid {
+        height: 80%;
+    }
+
+    /* ============ booking ============ */
+
+    .booking {
+        height: 100vh;
+    }
+    
+    .booking .container .row .heading p{
+        width: 85%;
+    }
+
+    .booking .container .row .image-content {
+        width: 48%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        left: 42%;
+    }
+
+    .booking .container .row .image-content .vehicle img {
+        width: 96%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 110vh;
+        top: 630vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 7%;
+    }
+
+}
+
+/* ============= @media screen - max-width : 992px =============== */
+
+@media screen and (max-width: 991px) {
+     /* ============ nav-top ============ */
+
+     .nav-top .container {
+        justify-content: end;
+     }
+
+     .nav-top .container .logo img{
+        width: 65%;
+    }
+
+    .nav-top .container .contact-details {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .nav-top .container .contact-details .address {
+        padding-right: 20px;
+    }
+    
+    .nav-top .container .contact-details .address .detail-text {
+        font-size: 14px;
+    }
+
+    .nav-top .container .contact-details .phone .detail-text {
+        font-size: 14px;
+    }
+
+     /* ============ navbar ============ */
+
+     .navbar .container .nav-menu {
+        width: 75% !important;
+     }
+
+     .navbar .container .nav-menu ul {
+        width:80%;
+        justify-content: end;
+     }
+
+     .navbar .container .nav-menu ul li {
+        padding: 0 15px;
+     }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        width: 25%;
+        left: 50% !important;
+    }
+
+    /* ============= banner ============= */
+
+    .banner .container .row .heading .cursive {
+        font-size: 30px;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 50px;
+        width: 70%;
+    }
+
+    .banner .container .row .heading p {
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    /* ============== main-amenities ============= */
+
+.main-amenities {
+    height: 200vh;
+    top: 70vh;
+}
+
+.main-amenities .container .row  {
+    height: 90%;
+}
+
+.main-amenities .container .row .heading h2 {
+    font-size: 40px;
+}
+
+.main-amenities .container .row .heading {
+    width: 90%;
+}
+
+.main-amenities .container .row .main-amenities-part-2 {
+    width: 100%;
+}
+
+.main-amenities .container .row .amenities-card-layout {
+    height: 70%;
+    width: 100%;
+}
+
+.main-amenities .container .row .amenities-card-layout .amenities-card {
+    width: 25%;
+}
+
+.main-amenities .container .row .amenities-card-layout .amenities-card h3 {
+    font-size: 24px;
+}
+
+/* ============ other-amenities ============ */
+
+.other-amenities {
+    top: 140vh;
+}
+
+       /* ============ booking ============ */
+
+       .booking {
+        height: 150vh;
+        top: 115vh;
+    }
+
+    .booking .container .row {
+        height: 90%;
+        flex-direction: column;
+    }
+
+    .booking .container .row .heading {
+        width: 90%;
+        height: 50%;
+        align-items: center;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .booking .container .row .heading p {
+        text-align: center;
+    }
+
+    .booking .container .row .image-content {
+        height: 50%;
+    }
+
+    .booking .container .row .image-content .village {
+        top: 0%;
+        width: 100%;
+        left: 0;
+    }
+
+    .booking .container .row .image-content .village img {
+        width: 100%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 110vh;
+        top: 640vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 4%;
+    }
+
+    .footer-primary .container .contact-details .address p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-primary .container .contact-details .phone p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .phone i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* ============= @media screen - max-width : 768px =============== */
+
+@media screen and (max-width: 767px) {
+    header {
+        position: relative;
+    }
+     /* ============ nav-top ============ */
+
+     .nav-top {
+        height: 70px;
+        top: 0;
+    }
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 20%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+
+    }
+
+    .nav-top .container .contact-details {
+        width: 100%;
+        justify-content: end;
+        padding: 0;
+    }
+
+    .nav-top .container .contact-details .phone .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        padding: 5px 7px;
+        font-size: 18px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .nav-top .container .menu-icon {
+        display: inline-block;
+        color: #fff;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 60px;
+        top: 100px
+    }
+
+    .navbar .container {
+        position: relative;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu {
+        width: 45%;
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: #fff;
+        backdrop-filter: blur(5px);
+        padding: 15px;
+        display: none;
+        overflow-x: hidden;
+        padding: 25px 10px 0 10px;
+        
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding: 10px;
+        i {
+            color: #000;
+        }
+        border-top: 1px solid #000;
+        width: 90%;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .navbar .container .nav-menu ul li.active {
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 80%;
+        display: block;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        position: unset;
+        width: 90%;
+        align-items: start;
+        background-color: #E18A11;
+        backdrop-filter: blur(5px);
+        align-items: start;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu li {
+        justify-content: start;
+        text-transform: capitalize;
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu .view a {
+        font-weight: 600 !important;
+        font-size: 15px !important;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-arrow {
+        color: #000 !important;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 90%;
+        background-color: transparent;
+        margin-right: 20px;
+        justify-content: start;
+        color: #000;
+        i {
+            font-size: 18px;
+        }
+        border-top: 1px solid #000;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    /* ============ banner ============= */
+
+    .banner {
+        overflow-y: hidden;
+    }
+
+    .banner .container .row {
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .banner .container .row .heading {
+        width: 100%;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 36px;
+        width: 80%;
+    }
+
+     /* ============== main-amenities ============= */
+
+.main-amenities {
+    height: 180vh;
+    top: 80vh;
+}
+
+.main-amenities .container .row {
+    height: 80%;
+}
+
+.main-amenities .container .row .heading {
+    height: 35%;
+}
+
+.main-amenities .container .row .heading h2 {
+    padding-bottom: 15px;
+}
+
+.main-amenities .container .row .main-amenity-part-2 {
+    height: 50%;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .amenities-card-layout {
+    display: none;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper .swiper-wrapper {
+    width: 100%;
+    height: 70%;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper .swiper-wrapper .swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-amenities .container .row .swiper .amenities-card {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+    transition: all 0.5s ease;
+    box-shadow: 0 0 8px #00000016;
+}
+
+.main-amenities .container .row .swiper .amenities-card:hover {
+    background-color: #E18A11;
+    h3 {
+        color: #fff;
+    }
+}
+
+.main-amenities .container .row .swiper .amenities-card .card-image {
+    padding-bottom: 20px;
+}
+
+.main-amenities .container .row .swiper .amenities-card h3 {
+    font-size: 22px;
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    text-align: center;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper .swiper-pagination {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 95%;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper .swiper-pagination-bullet {
+    background-color: #A7A198;
+    width: 15px;
+    height: 15px;
+}
+
+.main-amenities .container .row .main-amenity-part-2 .swiper .swiper-pagination-bullet-active {
+    width: 15px;
+    height: 15px;
+    background-color: #247d7f;
+}
+
+/* ============ other-amenities ============ */
+
+.other-amenities {
+    height: 320vh;
+}
+
+.other-amenities .container .row .heading h2 {
+    font-size: 38px;
+}
+
+.other-amenities .container .row .amenity-part-2 {
+    height: 90%;
+}
+
+.other-amenities .container .row .amenity-grid {
+    height: 40%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card .card-image {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card .card-image img{
+    height: 100%;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card p {
+    font-size: 20px;
+}
+
+     /* ============= booking ============= */
+
+     .booking {
+        top: 115vh;
+    }
+
+
+    /* ============= footer ============= */
+
+    footer {
+        height: 105vh;
+        top: 665vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 65%;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-secondary {
+        height: 15%;
+    }
+
+    .footer-secondary .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-secondary .container p {
+        padding-top: 15px;
+    }
+
+    .footer-secondary .container .designer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copy {
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer .designer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+}
+
+/* ============= @media-screen - max-width : 576px =============== */
+
+@media screen and (max-width: 575px) {
+    
+    /* ========== nav-top =========== */
+
+     .nav-top .container .logo {
+        left: 0%;
+        width: 25%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        width: 40vw;
+        left: -280%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        font-size: 18px;
+       width: 90%;
+    }
+
+    .navbar .container .nav-menu {
+       left: 55%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 100%;
+    }
+    
+    /* ========== banner =========== */
+
+    .banner .container .row .heading .cursive {
+        font-size: 26px;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 40px;
+        width: 70%;
+    }
+
+    .banner .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .scroll-down {
+        display: none;
+    }
+
+/* ============== main-amenities ============= */
+
+.main-amenities {
+    height: 150vh;
+    top: 80vh;
+}
+
+.main-amenities .container .row {
+    height: 75%;
+}
+
+.main-amenities .container .row .heading {
+    padding-bottom: 0;
+    height: 40%;
+}
+
+.main-amenities .container .row .heading h2 {
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.main-amenities .container .row .heading p {
+    font-size: 14px;
+}
+
+.main-amenities .container .row .swiper {
+    height: 40%;
+    position: relative;
+}
+
+.main-amenities .container .row .swiper .swiper-wrapper {
+    height: 70% !important;
+}
+
+.main-amenities .container .row .swiper .amenities-card {
+    margin: 0;
+    box-shadow: 0 0 8px #0000001f;
+}
+
+.main-amenities .container .row .swiper .swiper-pagination {
+    position: absolute !important;
+    top: 92% !important;
+    height: 20%;
+    align-items: center;
+}
+
+/* ============ other-amenities ============ */
+
+.other-amenities {
+    height: 300vh;
+    top: 110vh;
+}
+
+.other-amenities .container .row {
+    height: 100%;
+    justify-content: center;
+}
+
+.other-amenities .container .row .heading {
+    height: 10%;
+}
+
+.other-amenities .container .row .heading h2 {
+    font-size: 40px;
+}
+
+.other-amenities .container .row .amenity-part-2 {
+    height: 90%;
+}
+
+.other-amenities .container .row .amenity-grid {
+    height: 40%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card {
+    height: 100%;
+    padding: 0 5px;
+   
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card .card-image {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card .card-image img{
+    height: 100%;
+}
+
+.other-amenities .container .row .amenity-grid .amenity-card p {
+    font-size: 18px;
+}
+
+    /* ============= booking ============== */
+
+    .booking {
+        top: 85vh;
+        height: 120vh;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 28px;
+    }
+
+    .booking .container .row .booking-btn {
+        flex-direction: column;
+    }
+
+    .booking .container .row .booking-btn .book-btn {
+        padding: 4px 4px 4px 0;
+        padding-left: 10px !important;
+        font-size: 14px;
+
+        i {
+            padding-left: 5px;
+            font-size: 26px;
+        }
+
+        margin-bottom: 10px;
+    }
+
+    .booking .container .row .booking-btn .dial-btn {
+        padding: 4px 4px 4px 0;
+        padding-left: 10px !important;
+        font-size: 14px;
+
+        i {
+            padding-left: 5px;
+            font-size: 26px;
+        }
+    }
+
+    .booking .container .row .image-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking .container .row .image-content .village {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .booking .container .row .image-content .village img {
+        width: 70%;
+        height: unset;
+    }
+
+ /* ============= footer ============= */
+
+ footer {
+    height: 105vh;
+    top: 580vh;
+    z-index: -1;
+}
+
+.footer-primary {
+    height: 80%;
+}
+
+.footer-primary .container .brand-menu {
+    width: 75%;
+}
+
+.footer-primary .container .brand-menu .list-item a {
+    font-size: 14px !important;
+}
+
+
+}
+
+/* ============= @media-screen - max-width : 480px =============== */
+
+@media screen and (max-width: 480px) {
+   
+    /* ========= nav-top ========== */
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 35%;
+    }
+
+    .nav-top .container .contact-details .address {
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        font-size: 16px;
+    }
+
+    .nav-top .container .contact-details .phone{
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 16px;
+        margin: 0 8px;
+    }
+    
+    .nav-top .container .menu-icon {
+        padding-left: 5px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 50px;
+        top: 60px
+    }
+
+    .navbar .container .nav-menu {
+        left: 50%;
+        width: 50%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 85%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding-bottom: 10px;
+        i {
+            color: #000;
+        }
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 14px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        left: -180%;
+        top: -150%;
+        width: 40vw;
+        padding: 10px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li a {
+        font-size: 14px;
+        i {
+            color: #fff;
+        }
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li.view a {
+        font-size: 16px;
+    }
+
+    /* ========== banner =========== */
+
+    .banner .container .row .heading {
+        width: 100%;
+    }
+
+    .banner .container .row .heading .cursive {
+        font-size: 22px;
+    }
+
+    .banner .container .row .heading h1 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .banner .container .row .heading p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    .main-amenities .container .row .swiper .amenities-card {
+        height: 80%;
+    }
+
+    .main-amenities .container .row .swiper .amenities-card h3 {
+        font-size: 18px;
+    }
+
+    /* ============ other-amenities ============ */
+
+    .other-amenities {
+        height: 300vh;
+    }
+
+    .other-amenities .container .row .amenity-grid {
+        height: 40%;
+    }
+
+    .other-amenities .container .row .amenity-grid .amenity-card p {
+        font-size: 14px;
+    }
+
+    /* ============= booking ============== */
+
+    .booking {
+        height: 80vh;
+        top: 70vh;
+    }
+
+    .booking .container .row .heading {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .booking .container .row .heading p {
+        width: 100%;
+    }
+
+    .booking .container .row .image-content {
+        display: none;
+    }
+
+     /* ============= footer ============= */
+
+     footer {
+        height: 105vh;
+        top: 525vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 95%;
+    }
+
+    .footer-primary .container .brand-menu .list-item a {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 14px;
+    }
+
+.footer-primary .container .contact-details .address p {
+   display: none;
+}
+
+.footer-primary .container .contact-details .phone i {
+    font-size: 14px;
+}
+
+.footer-primary .container .contact-details .phone p {
+display: none;
+}
+
+#copy {
+    padding: 0;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.footer-secondary .container .designer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer-secondary .container .designer .designer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+}

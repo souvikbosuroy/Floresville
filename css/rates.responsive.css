@@ -1,0 +1,1259 @@
+/* ============= @media screen - max-width : 1200px =============== */
+
+@media screen and (max-width: 1199px) {
+/* ========== common-styling ========== */
+
+body {
+    overflow-x: hidden;
+}
+
+/* ============ nav-top ============ */
+
+.nav-top .container .contact-details {
+    width: 55%;
+    padding: 0 20px;
+}
+
+.nav-top .container .logo {
+    left: 0;
+    top: 0;
+}
+
+.nav-top .container .logo img {
+    width: 70%;
+}
+
+/* ============ navbar ============ */
+
+.navbar .container .nav-menu ul {
+    padding-right: 25px;
+}
+
+.navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+    width: 14vw;
+    top: 5vh;
+}
+
+.navbar .container .nav-menu .contact-btn {
+    padding: 0 6px 0 15px;
+
+    i {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+}
+
+/* ============= banner ============= */
+
+.banner .container .row {
+    width: 80%;
+    margin-top: 10%;
+}
+
+.banner .container .row .heading {
+    justify-content: end;
+}
+
+.banner .container .row .heading h1 {
+    font-size: 70px;
+    padding-bottom: 15px;
+}
+
+.banner .container .row .heading .cursive {
+    font-size: 35px;
+}
+
+.banner .container .row .banner-btn .book-btn {
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.banner .container .row .banner-btn .book-btn i {
+    padding-left: 10px;
+}
+
+.banner .container .row .banner-btn .dial-btn {
+    padding-right: 5px;
+    padding-left: 20px;
+}
+
+.banner .container .row .banner-btn .dial-btn i {
+    padding-left: 10px;
+}
+
+.banner .container .scroll-down {
+    right: -90%;
+    top: 55%;
+}
+
+.banner .container .scroll-down .arrow {
+    transform: rotate(0deg);
+    padding-right: 10px;
+}
+
+    /* =========== rates =========== */
+
+.rates {
+    height: 140vh;
+    top: 85vh;
+}
+
+.rates .container .row {
+    height: 80%;
+}
+
+.rates .container .row .image-content {
+    width: 50%;
+}
+
+.rates .container .row .image-content #rate-shape-1 {
+    padding: 20px;
+}
+
+.rates .container .row .image-content #rate-shape-1 img{
+    width: 95%;
+}
+
+/* ============= deposits ================ */
+
+.deposits {
+    top: 120vh;
+    height: 140vh;
+}
+
+    /* ============= booking =============== */
+
+ .booking {
+    height: 100vh;
+    top: 95vh;
+}
+
+.banner .container .row {
+    width: 100%;
+}
+
+.booking .container .row .heading {
+    width: 60%;
+    padding: 20px;
+}
+
+.booking .container .row .heading h2 {
+    width: 90%;
+    font-size: 50px;
+}
+
+.booking .container .row .heading p {
+    width: 100%;
+    font-size: 16px;
+}
+
+.booking .container .row .booking-btn .book-btn {
+    padding-left: 20px !important;
+}
+
+.booking .container .row .booking-btn .dial-btn {
+    padding-left: 15px !important;
+}
+
+.booking .container .row .booking-btn .dial-btn i {
+    padding-left: 15px;
+}
+
+
+.booking .container .row .image-content .village {
+    left: 10%;
+    top: 20%;
+}
+
+.booking .container .row .image-content .village img {
+    width: 80%;
+}
+
+.booking .container .row .image-content .vehicle {
+    left: 44%;
+    top: 25%;
+    width: 53%;
+    height: 57%;
+}
+
+.booking .container .row .image-content .vehicle img {
+    width: 98%;
+}
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 105vh;
+        top: 415vh;
+        z-index: -1;
+    }
+    
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container {
+        justify-content: end;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 10%;
+    }
+    
+    .footer-secondary {
+        height: 10%;
+        padding: 3% 0;
+    }
+
+}
+
+/* ============= @media screen - max-width : 1024px =============== */
+
+@media screen and (max-width: 1024px) {
+
+    .nav-top .container .logo img{
+        width: 75%;
+    }
+
+/* =========== deposits =========== */
+
+    .deposits {
+        top: 110vh;
+    }
+
+    /* ============ booking ============ */
+
+    .booking {
+        top: 85vh;
+    }
+
+    .booking .container .row .heading p{
+        width: 85%;
+    }
+
+    .booking .container .row .image-content {
+        width: 48%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        left: 42%;
+    }
+
+    .booking .container .row .image-content .vehicle img {
+        width: 96%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 105vh;
+        top: 400vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 7%;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+     /* ============ nav-top ============ */
+
+     .nav-top .container {
+        justify-content: end;
+     }
+
+     .nav-top .container .logo img{
+        width: 80%;
+    }
+
+    .nav-top .container .contact-details {
+        width: 100%;
+        justify-content: end;
+    }
+
+    .nav-top .container .contact-details .address {
+        padding-right: 20px;
+    }
+    
+    .nav-top .container .contact-details .address .detail-text {
+        font-size: 14px;
+    }
+
+    .nav-top .container .contact-details .phone .detail-text {
+        font-size: 14px;
+    }
+
+     /* ============ navbar ============ */
+
+     .navbar .container .nav-menu {
+        width: 90%;
+     }
+
+     .navbar .container .nav-menu ul {
+        width: 75%;
+        justify-content: end;
+     }
+
+     .navbar .container .nav-menu ul li {
+        padding: 0 15px;
+     }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        width: 22vw;
+        top: 5vh;
+    }
+
+    /* ============= banner ============= */
+
+    .banner .container .row .heading .cursive {
+        font-size: 30px;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 50px;
+        width: 70%;
+    }
+
+    .banner .container .row .heading p {
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 15px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    /* ==========rates=========== */
+
+    .rates .container .row .text-content .heading h2 {
+        font-size: 40px;
+    }
+
+    .rates .container .row .text-content .rate-list .package {
+        padding: 10px 0;
+    }
+
+    .rates .container .row .text-content .rate-list .package h3 {
+        font-size: 26px;
+    }
+
+    .rates .container .row .text-content .rate-list .package p {
+        font-size: 24px;
+    }
+
+    /* ============ deposits =============== */
+
+    .deposits {
+        height: 130vh;
+        top: 110vh;
+    }
+
+    .deposits .container .row .heading h2 {
+        font-size: 40px;
+    }
+
+
+.deposits .container .row .instruction-list p {
+    font-size: 24px;
+}
+
+.deposits .container .row .instruction-list .count {
+    font-size: 32px;
+}
+
+      /* ============ booking ============ */
+
+      .booking {
+        height: 150vh;
+        top: 85vh;
+    }
+
+    .booking .container .row {
+        height: 90%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .booking .container .row .heading {
+        width: 90%;
+        height: 40%;
+        align-items: center;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .booking .container .row .heading p {
+        text-align: center;
+    }
+
+    .booking .container .row .image-content {
+        height: 50%;
+        width: 100%;
+    }
+
+    .booking .container .row .image-content .village {
+width: 100% !important;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: unset;
+    }
+
+    .booking .container .row .image-content .village img {
+        width:55%;
+    }
+
+    /* =========== footer =========== */
+
+    footer {
+        height: 105vh;
+        top: 440vh;
+        z-index: -1;
+    }
+
+    .footer-primary .container .contact-details {
+        padding: 2% 4%;
+    }
+
+    .footer-primary .container .contact-details .address p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-primary .container .contact-details .phone p {
+        font-size: 15px;
+    }
+
+    .footer-primary .container .contact-details .phone i {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+    }
+
+}
+
+/* ============= @media screen - max-width : 768px =============== */
+
+@media screen and (max-width: 767px) {
+  
+    /* ============ nav-top ============ */
+
+       .nav-top {
+        height: 70px;
+        top: 0;
+    }
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 20%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+
+    }
+
+    .nav-top .container .contact-details {
+        width: 100%;
+        justify-content: end;
+        padding: 0;
+    }
+
+    .nav-top .container .contact-details .phone .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .detail-text {
+        display: none;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        padding: 5px 7px;
+        font-size: 18px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .nav-top .container .menu-icon {
+        display: inline-block;
+        color: #fff;
+        padding-left: 20px;
+        font-size: 20px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 60px;
+        top: 100px
+    }
+
+    .navbar .container {
+        position: relative;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu {
+        width: 45%;
+        position: fixed;
+        height: 100vh;
+        top: 0px;
+        left: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        background-color: #fff;
+        backdrop-filter: blur(5px);
+        padding: 15px;
+        display: none;
+        overflow-x: hidden;
+        padding: 25px 10px 0 10px;
+        
+    }
+
+    .navbar .container .nav-menu ul {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding: 10px;
+        i {
+            color: #000;
+        }
+        border-top: 1px solid #000;
+        width: 90%;
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu ul li a {
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .navbar .container .nav-menu ul li.active {
+        justify-content: start;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 80%;
+        display: block;
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding-bottom: 30px;
+        font-size: 20px;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        position: unset;
+        width: 90%;
+        align-items: start;
+        background-color: #E18A11;
+        backdrop-filter: blur(5px);
+        align-items: start;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu li {
+        justify-content: start;
+        text-transform: capitalize;
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu .view a {
+        font-weight: 600 !important;
+        font-size: 15px !important;
+    }
+
+    .navbar .container .nav-menu .drop-down-menu li a {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-arrow {
+        color: #000 !important;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 90%;
+        background-color: transparent;
+        margin-right: 20px;
+        justify-content: start;
+        color: #000;
+        i {
+            font-size: 18px;
+        }
+        border-top: 1px solid #000;
+        border-radius: 0;
+        padding: 10px;
+    }
+
+    /* ===========rates =========== */
+
+    .rates {
+        height: 180vh;
+    }
+
+    .rates .container .row {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .rates .container .row .image-content {
+        height: 40%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rates .container .row .image-content #rate-shape-1 {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .rates .container .row .image-content #rate-shape-1 img {
+        height: 100%;
+        width: unset;
+    }
+
+    .rates .container .row .text-content {
+        height: 50%;
+        width: 100%;
+    }
+
+    .rates .container .row .text-content .heading {
+        align-items: center;
+        padding-bottom: 30px;
+    }
+
+    .rates .container .row .text-content .heading h2 {
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .rates .container .row .text-content .heading p {
+        text-align: center;
+    }
+
+    .rates .container .row .text-content .rate-list {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .rates .container .row .text-content .rate-list .package {
+        width: 32%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        border-left: 1px solid #000;
+        padding: 10px;
+    }
+
+    .rates .container .row .text-content .rate-list #no-border {
+        border: none;
+        color: #000;
+    }
+
+    .line-break {
+        display: block;
+        padding-top: 10px;
+    }
+
+    .rates .container .row .text-content .rate-list .package h3 {
+        font-size: 22px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    .rates .container .row .text-content .rate-list .package p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    /* =========deposits =========== */
+
+    .deposits {
+        height: 110vh;
+        top: 140vh;
+    }
+
+    .deposits .container .row .heading h2 {
+        font-size: 28px;
+    }
+
+
+.deposits .container .row .instruction-list p {
+    font-size: 20px;
+}
+
+.deposits .container .row .instruction-list .count {
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+}
+
+    /* ============= booking ============= */
+
+    .booking {
+        top: 117vh;
+    }
+
+    .booking .container .row .image-content .village {
+        width: 90%;
+        height: 70%;
+        left: -25%;
+    }
+
+    .booking .container .row .image-content .vehicle {
+        top: 10%;
+        left: 50%;
+        width: 75%;
+        height: 70%;
+    }
+
+    /* ============= footer ============= */
+
+    footer {
+        height: 105vh;
+        top: 455vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 65%;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-secondary {
+        height: 15%;
+    }
+
+    .footer-secondary .container {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer-secondary .container p {
+        padding-top: 15px;
+    }
+
+    .footer-secondary .container .designer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #copy {
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .footer-secondary .container .designer .designer-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 5px;
+    }
+
+}
+
+/* ============= @media-screen - max-width : 576px =============== */
+
+@media screen and (max-width: 575px) {
+    
+    /* ========== nav-top =========== */
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 25%;
+    }
+
+    .nav-top .container .logo img{
+        width: 100%;
+    }
+
+    .navbar .container .nav-menu ul .drop-down-menu {
+        width: 40vw;
+        left: -280%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        font-size: 18px;
+       width: 90%;
+    }
+
+    .navbar .container .nav-menu {
+       left: 55%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        width: 100%;
+        padding-bottom: 15px;
+    }
+
+    .navbar .container .nav-menu .contact-btn {
+        width: 100%;
+    }
+    
+    /* ========== banner =========== */
+
+    .banner .container .row .heading .cursive {
+        font-size: 26px;
+    }
+
+    .banner .container .row .heading h1 {
+        font-size: 40px;
+        width: 70%;
+    }
+
+    .banner .container .row .heading p {
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 5px;
+        padding-left: 10px;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 10px;
+        font-size: 30px;
+    }
+
+    .banner .container .scroll-down {
+        display: none;
+    }
+
+       /* =========deposits =========== */
+
+       .deposits {
+        height: 100vh;
+    }
+
+    .deposits .container .row .instruction-list p {
+        font-size: 16px;
+    }
+    
+    .deposits .container .row .instruction-list .count {
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+
+ /* ============= booking ============== */
+
+ .booking {
+    top: 120vh;
+    height: 120vh;
+}
+
+.booking .container .row .heading h2 {
+    font-size: 28px;
+}
+
+.booking .container .row .booking-btn {
+    flex-direction: column;
+}
+
+.booking .container .row .booking-btn .book-btn {
+    padding: 4px 4px 4px 0;
+    padding-left: 10px !important;
+    font-size: 14px;
+
+    i {
+        padding-left: 5px;
+        font-size: 26px;
+    }
+
+    margin-bottom: 10px;
+}
+
+.booking .container .row .booking-btn .dial-btn {
+    padding: 4px 4px 4px 0;
+    padding-left: 10px !important;
+    font-size: 14px;
+
+    i {
+        padding-left: 5px;
+        font-size: 26px;
+    }
+}
+
+.booking .container .row .image-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking .container .row .image-content .village {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.booking .container .row .image-content .village img {
+    width: 70%;
+    height: unset;
+}
+
+ /* ============= footer ============= */
+
+ footer {
+    height: 105vh;
+    top: 420vh;
+    z-index: -1;
+}
+
+.footer-primary {
+    height: 80%;
+}
+
+.footer-primary .container .brand-menu {
+    width: 75%;
+}
+
+.footer-primary .container .brand-menu .list-item a {
+    font-size: 14px !important;
+}
+
+}
+
+/* ============= @media-screen - max-width : 480px =============== */
+
+@media screen and (max-width: 480px) {
+    
+    /* ========= nav-top ========== */
+
+    .nav-top .container .logo {
+        left: 0%;
+        width: 35%;
+    }
+
+    .nav-top .container .contact-details .address {
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .address .icon i {
+        font-size: 16px;
+    }
+
+    .nav-top .container .contact-details .phone{
+        padding-right: 5px;
+    }
+
+    .nav-top .container .contact-details .phone .icon i {
+        font-size: 16px;
+        margin: 0 8px;
+    }
+    
+    .nav-top .container .menu-icon {
+        padding-left: 5px;
+    }
+
+    /* ========== navbar =========== */
+
+    .navbar {
+        height: 50px;
+        top: 60px
+    }
+
+    .navbar .container .nav-menu {
+        left: 50%;
+        width: 50%;
+    }
+
+    .navbar .container .nav-menu .menu-toggler {
+        width: 85%;
+    }
+
+    .navbar .container .nav-menu ul li {
+        padding-bottom: 10px;
+        i {
+            color: #000;
+        }
+    }
+
+    .navbar .container .nav-menu ul li a {
+        font-size: 14px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu {
+        left: -180%;
+        top: -150%;
+        width: 40vw;
+        padding: 10px;
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li a {
+        font-size: 14px;
+        i {
+            color: #fff;
+        }
+    }
+
+    .navbar .container .nav-menu ul li.drop-down .drop-down-menu li.view a {
+        font-size: 16px;
+    }
+
+    /* ========== banner =========== */
+
+    .banner .container .row .heading {
+        width: 100%;
+    }
+
+    .banner .container .row .heading .cursive {
+        font-size: 22px;
+    }
+
+    .banner .container .row .heading h1 {
+        width: 100%;
+        font-size: 28px;
+    }
+
+    .banner .container .row .heading p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .banner .container .row .banner-btn .book-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .book-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn {
+        padding-right: 4px;
+        padding-left: 8px;
+        font-size: 13px;
+    }
+
+    .banner .container .row .banner-btn .dial-btn i {
+        padding-left: 5px;
+        font-size: 24px;
+    }
+
+    /* ============ rates ============ */
+
+    .rates .container .row .image-content {
+        height: 35%;
+    
+    }
+
+    .rates .container .row .text-content {
+        height: 60%;
+    }
+
+    .rates .container .row .image-content #rate-shape-1 img {
+        height: 95%;
+    }
+
+    .rates .container .row .text-content .heading h2 {
+        font-size: 32px;
+    }
+
+    .rates .container .row .text-content .heading p {
+        font-size: 14px;
+    }
+
+    .rates .container .row .text-content .rate-list {
+        flex-direction: column;
+    }
+
+    .rates .container .row .text-content .rate-list .package {
+        width: 100%;
+        border: none;
+        border-top: 1px solid #000;
+        padding: 10px;
+    }
+
+    .line-break {
+        display: inline;
+    }
+
+     /* =========deposits =========== */
+
+     .deposits {
+        height: 110vh;
+    }
+
+    .deposits .container .row .instruction-list .instruction-part {
+        padding: 10px 0;
+    }
+
+    .deposits .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .deposits .container .row .instruction-list p {
+        font-size: 14px;
+    }
+    
+    .deposits .container .row .instruction-list .count {
+        font-size: 16px;
+    }
+
+    /* ============= booking ============== */
+
+    .booking {
+        height: 80vh;
+        top: 110vh;
+    }
+
+    .booking .container .row .heading {
+        height: 100%;
+    }
+
+    .booking .container .row .heading h2 {
+        font-size: 24px;
+    }
+
+    .booking .container .row .image-content {
+        display: none;
+    }
+
+     /* ============= footer ============= */
+
+     footer {
+        height: 105vh;
+        top: 375vh;
+        z-index: -1;
+    }
+
+    .footer-primary {
+        height: 80%;
+    }
+
+    .footer-primary .container .brand-menu {
+        width: 95%;
+    }
+
+    .footer-primary .container .brand-menu .list-item a {
+        font-size: 14px;
+    }
+
+    .footer-primary .container .contact-details {
+        flex-direction: row;
+        padding: 20px 0;
+    }
+
+    .footer-primary .container .contact-details .address i {
+        font-size: 14px;
+    }
+
+.footer-primary .container .contact-details .address p {
+   display: none;
+}
+
+.footer-primary .container .contact-details .phone i {
+    font-size: 14px;
+}
+
+.footer-primary .container .contact-details .phone p {
+display: none;
+}
+
+#copy {
+    padding: 0;
+    text-align: center;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.footer-secondary .container .designer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.footer-secondary .container .designer .designer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+}

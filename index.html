@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="park">
+    <title>Floresvile</title>
+    <link rel="stylesheet" href="./css/styes.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+
+    <!-- =========== font awesome cdn link ========== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- =========== bootstrap icon cdn ============= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ============ aos cdn link ============= -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ============ swiper-js-cdn ============ -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="nav-top">
+            <div class="container">
+                <div class="logo" data-aos="fade-down">
+                    <a href="#home"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="contact-details" data-aos="fade-down">
+                    <div class="address">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="detail-text">
+                            <p class="head">Address</p>
+                            <p>1396 HWY 181N, Floresville, TX 78114</p>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <div class="icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="detail-text">
+                            <p class="head">Phone:</p>
+                            <p>(830) 446-1254</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars-staggered menu-icon"></i>
+            </div>
+        </div>
+
+        <!-- ========== navbar ============ -->
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-menu" data-aos="fade-down">
+                        <i class="fa-solid fa-xmark menu-toggler"></i>
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li class="drop-down"><a href="./amenities.html">Amenities</a> <i
+                                class="fa-solid fa-angle-down drop-down-arrow"></i>
+                            </li>
+                            <ul class="drop-down-menu">
+                                <li><a href="#security">Security <i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#wifi">WiFi<i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#shopping">Shopping<i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#water">Water<i class="bi bi-arrow-right"></i></a></li>
+                                <li class="view"><a href="./amenities.html">view all<i
+                                            class="bi bi-arrow-right"></i></a></li>
+                            </ul>
+                        <li><a href="./things-to-do.html">Things To Do</a></li>
+                        <li><a href="./rates.html">Rates</a></li>
+                    </ul>
+                    <a href="./contact.html" class="contact-btn">Contact Us<i
+                            class="bi bi-arrow-up-right-circle-fill"></i></a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ============= main ============== -->
+
+    <main>
+
+        <!-- ============= banner ============= -->
+
+        <section class="banner">
+            <div class="container">
+                <div class="row" data-aos="fade-up">
+                    <div class="heading">
+                        <h1><span class="cursive">South Texas&rsquo;</span>Most Spacious RV Park</h1>
+                        <p>Spacious Lots, Prime Location, and Natural Beauty – Your Perfect RV Getaway in Floresville.
+                        </p>
+                    </div>
+                    <div class="banner-btn">
+                        <button type="button" class="book-btn">Book RV Site <i
+                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                        <button type="button" class="dial-btn">(830) 446-1254 <i
+                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                    </div>
+                </div>
+                <div class="scroll-down">
+                    <figure class="arrow">
+                        <img src="./img/scroll-arrow.png" alt="scroll-arrow">
+                    </figure>
+                    <a href="#footer-second">scroll down</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============== amenities ================ -->
+
+        <section class="amenities" id="amenities">
+            <div class="container">
+                <div class="row">
+                    <div class="heading" data-aos="fade-up">
+                        <h2>Our <span class="cursive">Facilities</span> & Amenities</h2>
+                        <p>At Eagle’s Nest RV Park, we take pride in offering top-notch facilities and amenities to make
+                            your stay as comfortable and enjoyable as possible. Our spacious RV lots provide ample
+                            privacy and convenience with pull-through spaces for easy access. Enjoy peace of mind with
+                            our 24/7 security surveillance and on-site laundromat for all your needs.</p>
+                        <button type="button" class="view-all-btn">View All Amenities <i
+                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                    </div>
+                    <div class="facilities-card-layout">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="security">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-1.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>Security Gate</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="hookups">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-2.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>30 & 50 Amp Hookups</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="on-site">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-3.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>On-Site Laundromat</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="wifi">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-4.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>Free WiFi</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="hookups">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-2.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>30 & 50 Amp Hookups</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="facility-card" id="on-site">
+                                        <div class="card-image">
+                                            <figure class="card-icon">
+                                                <img src="./img/card-img-3.png" alt="facility-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-heading">
+                                            <h3>On-Site Laundromat</h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <figure class="background-image">
+                        <img src="./img/tree-vector.png" alt="tree">
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= things-to-do =============== -->
+
+        <section class="things-to-do">
+            <div class="container">
+                <div class="row">
+                    <div class="heading" data-aos="fade-up">
+                        <div class="image-content">
+                            <figure id="lake">
+                                <img src="./img/heading-img-1.png" alt="heading-image">
+                            </figure>
+                            <figure id="road">
+                                <img src="./img/heading-img-2.png" alt="heading-image">
+                            </figure>
+                            <figure id="road-2">
+                                <img src="./img/headin-img-3.png" alt="heading-image">
+                            </figure>
+                        </div>
+                        <div class="text-content" data-aos="fade-left">
+                            <h2>What <span class="cursive">Floresville</span>, TX Has To Offer</h2>
+                            <p>Floresville, TX is a charming small town that offers the perfect balance of rural charm
+                                and modern conveniences. Whether you're staying at Floresville RV Park for a short visit
+                                or making it your long-term home, you'll find plenty to explore and enjoy.</p>
+                            <button type="button" class="more-things">More Things To Do <i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></button>
+                        </div>
+                    </div>
+                    <figure class="curve">
+                        <img src="./img/curve-vector.png" alt="curve-shape">
+                    </figure>
+                    <figure class="background-shape">
+                        <img src="./img/backgorund_shape 2.png" alt="background-shape">
+                    </figure>
+                    <div class="things-part-2">
+                        <div class="things-card-layout">
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-1.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">5.3 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>River Bend Golf Club</h3>
+                                    <p>An 18-hole championship golf course with a driving range, putting green, and
+                                        scenic
+                                        views of the river.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-2.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">3.9 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>H-E-B Plus</h3>
+                                    <p>A large grocery store offering a wide range of products, including fresh produce,
+                                        meats, and household goods.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-3.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">4.8 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Floresville River Park</h3>
+                                    <p>A large park along the San Antonio River offering trails, fishing, picnicking,
+                                        and
+                                        river access for kayaking.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-4.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">5.2 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Peanut Festival Grounds</h3>
+                                    <p>Home to the annual Floresville Peanut Festival, offering rides, parades, and live
+                                        entertainment in a festive atmosphere.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-5.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">4.5 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>The Maverick Grill</h3>
+                                    <p>A popular local restaurant offering hearty Texas fare, including steaks, burgers,
+                                        and
+                                        classic Southern comfort food.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                            <div class="things-card">
+                                <div class="card-image">
+                                    <figure>
+                                        <img src="./img/things-card-img-6.png" alt="things-to-do">
+                                    </figure>
+                                    <p id="distance">5 miles</p>
+                                </div>
+                                <div class="card-content">
+                                    <h3>Arcadia Theater</h3>
+                                    <p>A historic movie theater in downtown Floresville, offering first-run films and a
+                                        nostalgic movie experience.</p>
+                                    <button type="button" class="visit-btn">Visit Now <i
+                                            class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-1.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">5.3 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>River Bend Golf Club</h3>
+                                        <p>An 18-hole championship golf course with a driving range, putting green, and
+                                            scenic
+                                            views of the river.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-2.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">3.9 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>H-E-B Plus</h3>
+                                        <p>A large grocery store offering a wide range of products, including fresh produce,
+                                            meats, and household goods.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-3.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">4.8 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Floresville River Park</h3>
+                                        <p>A large park along the San Antonio River offering trails, fishing, picnicking,
+                                            and
+                                            river access for kayaking.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-4.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">5.2 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Peanut Festival Grounds</h3>
+                                        <p>Home to the annual Floresville Peanut Festival, offering rides, parades, and live
+                                            entertainment in a festive atmosphere.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-5.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">4.5 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>The Maverick Grill</h3>
+                                        <p>A popular local restaurant offering hearty Texas fare, including steaks, burgers,
+                                            and
+                                            classic Southern comfort food.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="swiper-slide">
+                                <div class="things-card">
+                                    <div class="card-image">
+                                        <figure>
+                                            <img src="./img/things-card-img-6.png" alt="things-to-do">
+                                        </figure>
+                                        <p id="distance">5 miles</p>
+                                    </div>
+                                    <div class="card-content">
+                                        <h3>Arcadia Theater</h3>
+                                        <p>A historic movie theater in downtown Floresville, offering first-run films and a
+                                            nostalgic movie experience.</p>
+                                        <button type="button" class="visit-btn">Visit Now <i
+                                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =============== testimonial =============== -->
+
+        <section class="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="heading" data-aos="fade-up" data-aos-duration="1500">
+                        <h2>What Our <span class="cursive">Residents</span> Think</h2>
+                        <p>Our residents love the peaceful, spacious environment at Floresville RV Park. From friendly
+                            neighbors to modern amenities, they enjoy calling this beautiful South Texas retreat their
+                            home.</p>
+                    </div>
+                    <div class="test-card-layout">
+                        <figure class="tree">
+                            <img src="./img/tree.png" alt="tree">
+                        </figure>
+                        <figure class="house">
+                            <img src="./img/house.png" alt="house">
+                        </figure>
+                        <figure class="bus">
+                            <img src="./img/bus.png" alt="bus">
+                        </figure>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="test-card" id="first-review">
+                                        <div class="card-heading">
+                                            <div class="user-desc">
+                                                <p class="initial">D</p>
+                                                <div class="user-info">
+                                                    <h3>Deborah Cox</h3>
+                                                    <p>7 months ago</p>
+                                                </div>
+                                            </div>
+                                            <figure class="google-icon">
+                                                <img src="./img/google-ico.png" alt="google-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>We have only been here a few days, I love the long driveway, the sites
+                                                are kinda on a hill, so there won&lsquo;t be puddles everywhere, when it
+                                                rains. The manager <a href="#read">read more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="test-card" id="second-review">
+                                        <div class="card-heading">
+                                            <div class="user-desc">
+                                                <p class="initial">N</p>
+                                                <div class="user-info">
+                                                    <h3>N</h3>
+                                                    <p>a year ago</p>
+                                                </div>
+                                            </div>
+                                            <figure class="google-icon">
+                                                <img src="./img/google-ico.png" alt="google-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star faded-star"></i>
+                                            </div>
+                                            <p>We stayed here in the last week. The park hosts are friendly. It is under
+                                                new management. Their lawnmower broke and is in the shop. Some tenants
+                                                <a href="#read">read more</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="test-card" id="third-review">
+                                        <div class="card-heading">
+                                            <div class="user-desc">
+                                                <p class="initial">M</p>
+                                                <div class="user-info">
+                                                    <h3>Misty Hayes</h3>
+                                                    <p>a year ago</p>
+                                                </div>
+                                            </div>
+                                            <figure class="google-icon">
+                                                <img src="./img/google-ico.png" alt="google-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star faded-star"></i>
+                                            </div>
+                                            <p>Wish It had more trees. There are tons of sticker burrs everywhere in the
+                                                grass. Management is kind. Washers and dryers could be cleaner <a
+                                                    href="#read">read more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="test-card" id="first-review">
+                                        <div class="card-heading">
+                                            <div class="user-desc">
+                                                <p class="initial">N</p>
+                                                <div class="user-info">
+                                                    <h3>N</h3>
+                                                    <p>A Year Ago</p>
+                                                </div>
+                                            </div>
+                                            <figure class="google-icon">
+                                                <img src="./img/google-ico.png" alt="google-icon">
+                                            </figure>
+                                        </div>
+                                        <div class="card-content">
+                                            <div class="rating">
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                                <i class="fa-solid fa-star"></i>
+                                            </div>
+                                            <p>We stayed here in the last week. The park hosts are friendly. It is under
+                                                new management. Their lawnmower broke and is in the shop. Some tenants<a
+                                                    href="#read">read more</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= booking ============== -->
+
+        <section class="booking">
+            <div class="container">
+                <div class="row">
+                    <div class="heading" data-aos="fade-up">
+                        <h2>What <span class="cursive">Are</span> You Waiting For?</h2>
+                        <p>Book your spot at Floresville RV Park today and enjoy spacious lots, modern amenities, and
+                            serene country living!</p>
+                        <div class="booking-btn">
+                            <button type="button" class="book-btn">Book RV Site <i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></button>
+                            <button type="button" class="dial-btn">(830) 446-1254 <i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></button>
+                        </div>
+                    </div>
+                    <div class="image-content" data-aos="fade-left">
+                        <figure class="village">
+                            <img src="./img/village-img.png" alt="village">
+                        </figure>
+                        <figure class="vehicle">
+                            <img src="./img/vehicle-img.png" alt="vehicle">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ footer ============== -->
+
+    <footer>
+
+        <!-- ============ footer-primary ============= -->
+
+        <div class="footer-primary">
+            <div class="container">
+                <div class="brand-menu">
+                    <div class="brand-logo">
+                        <a href="#home"><img src="./img/footer-logo.png" alt="brand-logo"></a>
+                    </div>
+                    <div class="list-item">
+                        <a href="./index.html">Home</a>
+                        <a href="./amenities.html">Amenities</a>
+                        <a href="./things-to-do.html">Things To Do</a>
+                        <a href="./rates.html">Rates</a>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Location : 1396 HWY 181N, Floresville, TX 78114</p>
+                    </div>
+                    <div class="phone">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>Call Us On : (830) 446-1254</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== footer-secondary ============ -->
+
+        <div class="footer-secondary" id="footer-second">
+            <div class="container">
+                <p id="copy">Copyright 2024, floresville rv park . All rights Reserved.</p>
+                <div class="designer">
+                    <p>Designed By</p>
+                    <figure class="designer-logo">
+                        <img src="./img/designer-logo.png" alt="designer-logo">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ jquery & js ============= -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- =========== dropdown ============= -->
+
+    <script>
+        $(document).ready(function () {
+            $('.drop-down-arrow').click(function () {
+                $(this).toggleClass('fa-angle-up')
+                $('.drop-down-menu').toggle()
+            })
+        })
+    </script>
+
+    <!-- ============ nav-menu-open ============= -->
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-icon').click(function () {
+                $('.nav-menu').fadeIn(100)
+            })
+        })
+    </script>
+
+    <!-- ============ nav-menu-close ============= -->
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggler').click(function () {
+                $('.nav-menu').fadeOut(100)
+            })
+        })
+    </script>
+
+    <!-- =========== aos-script-cdn =========== -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- ============ aos-script ============== -->
+
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".amenities .mySwiper", {
+            breakpoints: {
+                991: {
+                    slidesPerView: 4,
+                },
+                768: {
+                    slidesPerView: 3,
+                },
+                575: {
+                    slidesPerView: 2.7,
+                },
+                481: {
+                    slidesPerView: 2,
+                },
+                351: {
+                    slidesPerView: 1.5,
+                }
+            },
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+
+    <!-- ============= things-to-do-card-layout ============= -->
+
+    <script>
+        var swiper = new Swiper(".things-to-do .mySwiper", {
+            breakpoints: {
+                575: {
+                    slidesPerView : 1.7,
+                },
+                481: {
+                    slidesPerView : 1.5,
+                },
+                351: {
+                    slidesPerView : 1.2,
+                },
+                350: {
+                    slidesPerView: 1,
+                }
+
+            },
+            spaceBetween: 20,
+            auotplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+    <!-- ============ testimonial-swiper ============= -->
+
+    <script>
+        var swiper = new Swiper(".testimonial .mySwiper", {
+            breakpoints: {
+                991: {
+                    slidesPerView: 3,
+                },
+                767: {
+                    slidesPerView: 2,
+                },
+                575: {
+                    slidesPerView: 1.5,
+                }
+            },
+            spaceBetween: 18,
+            loop: true,
+            autoplay: {
+                delay: 2000,
+                pauseOnMouseEnter: true,
+            },
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
+</body>
+
+</html>

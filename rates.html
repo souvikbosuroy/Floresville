@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="park">
+    <title>Floresvile</title>
+    <link rel="stylesheet" href="./css/rates.styles.css">
+    <link rel="stylesheet" href="./css/rates.responsive.css">
+
+    <!-- =========== font awesome cdn link ========== -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- =========== bootstrap icon cdn ============= -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- ============ aos cdn link ============= -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- ============ swiper-js-cdn ============ -->
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- =========== nav-top ============= -->
+
+        <div class="nav-top">
+            <div class="container">
+                <div class="logo" data-aos="fade-down">
+                    <a href="#home"><img src="./img/logo.png" alt="logo"></a>
+                </div>
+                <div class="contact-details" data-aos="fade-down">
+                    <div class="address">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="detail-text">
+                            <p class="head">Address</p>
+                            <p>1396 HWY 181N, Floresville, TX 78114</p>
+                        </div>
+                    </div>
+                    <div class="phone">
+                        <div class="icon">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div class="detail-text">
+                            <p class="head">Phone:</p>
+                            <p>(830) 446-1254</p>
+                        </div>
+                    </div>
+                </div>
+                <i class="fa-solid fa-bars-staggered menu-icon"></i>
+            </div>
+        </div>
+
+        <!-- ========== navbar ============ -->
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-menu" data-aos="fade-down">
+                        <i class="fa-solid fa-xmark menu-toggler"></i>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="drop-down"><a href="./amenities.html">Amenities</a> <i
+                                class="fa-solid fa-angle-down drop-down-arrow"></i>
+                            </li>
+                            <ul class="drop-down-menu">
+                                <li><a href="#security">Security <i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#wifi">WiFi<i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#shopping">Shopping<i class="bi bi-arrow-right"></i></a></li>
+                                <li><a href="#water">Water<i class="bi bi-arrow-right"></i></a></li>
+                                <li class="view"><a href="./amenities.html">view all<i
+                                            class="bi bi-arrow-right"></i></a></li>
+                            </ul>
+                        <li><a href="./things-to-do.html">Things To Do</a></li>
+                        <li class="active"><a href="./rates.html">Rates</a></li>
+                    </ul>
+                    <a href="./contact.html" class="contact-btn">Contact Us<i
+                            class="bi bi-arrow-up-right-circle-fill"></i></a>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- ============= main ============== -->
+
+    <main>
+
+        <!-- ============= banner ============= -->
+
+        <section class="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h1>RV Site Rates</h1>
+                        <p>Affordable Rates for Spacious, Comfortable RV Living at Floresville RV Park</p>
+                    </div>
+                    <div class="banner-btn">
+                        <button type="button" class="book-btn">Book RV Site <i
+                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                        <button type="button" class="dial-btn">(830) 446-1254 <i
+                                class="bi bi-arrow-up-right-circle-fill"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= rates ============== -->
+
+        <section class="rates">
+            <div class="container">
+                <div class="row">
+                    <div class="image-content">
+                        <figure id="rate-shape-1">
+                            <img src="./img/rate-shape-1.png" alt="landscape">
+                        </figure>
+                        <figure id="rate-shape-2">
+                            <img src="./img/rate-shape-2.png" alt="landscape">
+                        </figure>
+                        <figure id="rate-shape-3">
+                            <img src="./img/rate-shape-3.png" alt="landscape">
+                        </figure>
+                    </div>
+                    <div class="text-content">
+                        <div class="heading">
+                            <h2>RV <span class="cursive">Site</span> Rates</h2>
+                            <p>Competitive pricing for spacious RV sites that include water, convenient pull-through
+                                options, and access to all our amenities. Affordable living with all the comforts of
+                                home!</p>
+                        </div>
+                        <div class="rate-list">
+                            <div class="package" id="no-border">
+                                <h3>Daily</h3>
+                                <p>$45 <span class="line-break">(includes electric)</span></p>
+                            </div>
+                            <div class="package">
+                                <h3>Weekly</h3>
+                                <p>$200 <span class="line-break">(includes electric)</span></p>
+                            </div>
+                            <div class="package">
+                                <h3>Monthly</h3>
+                                <p>$450 <span class="line-break">(plus electricity-call for details)</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="deposits">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>Deposits</h2>
+                    </div>
+                    <div class="instruction-list">
+                        <div class="instruction-part">
+                            <p class="count">1</p>
+                            <p>First payment due at Registration / Move-In</p>
+                        </div>
+                        <div class="instruction-part">
+                            <p class="count">2</p>
+                            <p>Rent will be prorated to the next month. Rent is due on the 1st of the month.</p>
+                        </div>
+                        <div class="instruction-part">
+                            <p class="count">3</p>
+                            <p>Rates are based on 2 adult persons per site; additional persons will be an extra charge.</p>
+                        </div>
+                        <div class="instruction-part">
+                            <p class="count">4</p>
+                            <p>* Rates are based on 2 vehicles per site; additional vehicles will be an extra charge.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============= booking ============== -->
+
+        <section class="booking">
+            <div class="container">
+                <div class="row">
+                    <div class="heading">
+                        <h2>What <span class="cursive">Are</span> You Waiting For?</h2>
+                        <p>Book your spot at Floresville RV Park today and enjoy spacious lots, modern amenities, and
+                            serene country living!</p>
+                        <div class="booking-btn">
+                            <button type="button" class="book-btn">Book RV Site <i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></button>
+                            <button type="button" class="dial-btn">(830) 446-1254 <i
+                                    class="bi bi-arrow-up-right-circle-fill"></i></button>
+                        </div>
+                    </div>
+                    <div class="image-content">
+                        <figure class="village">
+                            <img src="./img/village-img.png" alt="village">
+                        </figure>
+                        <figure class="vehicle">
+                            <img src="./img/vehicle-img.png" alt="vehicle">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============ footer ============== -->
+
+    <footer>
+
+        <!-- ============ footer-primary ============= -->
+
+        <div class="footer-primary">
+            <div class="container">
+                <div class="brand-menu">
+                    <div class="brand-logo">
+                        <a href="#home"><img src="./img/footer-logo.png" alt="brand-logo"></a>
+                    </div>
+                    <div class="list-item">
+                        <a href="./index.html">Home</a>
+                        <a href="./amenities.html">Amenities</a>
+                        <a href="./things-to-do.html">Things To Do</a>
+                        <a href="./rates.html">Rates</a>
+                    </div>
+                </div>
+                <div class="contact-details">
+                    <div class="address">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Location : 1396 HWY 181N, Floresville, TX 78114</p>
+                    </div>
+                    <div class="phone">
+                        <i class="bi bi-telephone-fill"></i>
+                        <p>Call Us On : (830) 446-1254</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- =========== footer-secondary ============ -->
+
+        <div class="footer-secondary">
+            <div class="container">
+                <p id="copy">Copyright 2024, floresville rv park . All rights Reserved.</p>
+                <div class="designer">
+                    <p>Designed By</p>
+                    <figure class="designer-logo">
+                        <img src="./img/designer-logo.png" alt="designer-logo">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+     <!-- =========== aos-script-cdn =========== -->
+
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+     <!-- ============ aos-script ============== -->
+ 
+     <script>
+         AOS.init({
+             duration: 1000,
+         });
+     </script>
+
+    <!-- ============ jquery & js ============= -->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- =========== dropdown ============= -->
+
+    <script>
+        $(document).ready(function(){
+            $('.drop-down-arrow').click(function(){
+                $(this).toggleClass('fa-angle-up')
+                $('.drop-down-menu').toggle()
+            })
+        })
+    </script>
+
+    <!-- ============ nav-menu-open ============= -->
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-icon').click(function () {
+                $('.nav-menu').fadeIn(100)
+            })
+        })
+    </script>
+
+    <!-- ============ nav-menu-close ============= -->
+
+    <script>
+        $(document).ready(function () {
+            $('.menu-toggler').click(function () {
+                $('.nav-menu').fadeOut(100)
+            })
+        })
+    </script>   
+
+
+</body>
+
+</html>
